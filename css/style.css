@@ -352,10 +352,10 @@ overflow-x: hidden;
         position: relative;
         float: right;
     }
-    .bg-color-slide{
+    /* .bg-color-slide{
         background-color: #f0e0ff;;
         height: 280px;
-    }
+    } */
     .carousel-caption{
         position: relative;
         float: left;
@@ -471,5 +471,23 @@ overflow-x: hidden;
         .tof-daily-deal{
             margin-bottom: -140px;
          }
+         .bg-color-slide{
+            background-color: #f0e0ff;;
+            height: 380px;
+            margin-bottom: 95px;
+            margin-right: -2px
+        }
+        .contenu-menu .menu{
+            background-color: #fff;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-left: -16px;
+            margin-right: -16px;
+        }
+        .container-general{
+            width: 315px;
+            margin-right: 120px;
+            
+        }
         
  }
