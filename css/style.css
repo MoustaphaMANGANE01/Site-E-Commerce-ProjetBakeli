@@ -1,5 +1,5 @@
 body{
-    font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: unset;
 font-family: "Poppins",sans-serif;
@@ -272,6 +272,9 @@ overflow-x: hidden;
     border-radius: 5px;
     margin-left: 5px;
  }
+ .tof-our-blog img{
+    width: 356px;
+ }
  .tof-our-blog {
     margin-left: -35px;
     padding-bottom: 25px;
@@ -302,6 +305,30 @@ overflow-x: hidden;
     color:#a749ff;
  }
 
+ /* .daily-deal .image-icon2{
+    margin-left: -155px;
+ } */
+ /* #hr3{
+    background-color:black;
+    padding: 1px;width: 80px;
+    margin-left: 400px;
+    margin-bottom: -1px;
+}
+#hr4{
+    background-color:black;
+    padding: 1px;
+    width: 80px;
+    margin-right: -100px;
+    margin-top: -18px;
+}
+.our-blog .titre-blog{
+   margin-left: 505px;
+   margin-top: -30px;
+ 
+} */
+/* .daily img{
+    margin-left: -195px;
+} */
 
 @media (max-width:768px){
     .contenu-menu img{
@@ -416,9 +443,33 @@ overflow-x: hidden;
          .tof-our-blog {
             margin-left: -42px;
             padding-bottom: 25px;
+            padding-top: -85px;
          }
          .tof-our-blog img{
-            /* margin-left: -45px; */
+            width: 280px;
             padding-bottom: 8px;
          }
+         .daily-deal .i-c {
+            margin-top: -65px;
+            
+         }
+         .daily-deal .image-icon2{
+            margin-bottom: 5px;
+         }
+         .daily-deal .image-icon1{
+            margin-top: -145px;
+         }
+         body{
+            font-size: 16px;
+        font-style: normal;
+        font-weight: unset;
+        font-family: "Poppins",sans-serif;
+        color: #222222;
+        overflow-x: hidden;
+        width: 100%;
+        }
+        .tof-daily-deal{
+            margin-bottom: -140px;
+         }
+        
  }
