@@ -1,0 +1,424 @@
+body{
+    font-size: 16px;
+font-style: normal;
+font-weight: unset;
+font-family: "Poppins",sans-serif;
+color: #222222;
+overflow-x: hidden;
+}
+#increment-cart{
+    background-color: black;
+    color: white; 
+    position: relative;
+    float: right;
+    font-size: 14px;
+    padding: 1px;
+    font-weight: bold;
+    border-radius: 35px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+#shop-image{
+    height: 370px;
+    padding-top: -75px;
+    margin-bottom: 0px;
+
+}
+#hr1{
+    background-color:black;
+    padding: 1px;width: 80px;
+    margin-left: -40px;
+    margin-bottom: -20px;
+}
+#hr2{
+    background-color:black;
+    padding: 1px;
+    width: 80px;
+    margin-right: -40px;
+    margin-top: -18px;
+}
+.lien-table a:hover{
+    color:#a749ff;
+    text-decoration: none;
+    background-color: rgb(231, 229, 229);
+    font-style: oblique;
+}
+.lien-table .dropdown-item:hover{
+    color: #a749ff;
+    list-style-type: circle;
+    text-decoration: none;
+}
+.titre-home th{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: unset;
+
+}
+.bg-color-slide{
+    background-color: #f0e0ff;;
+    height: 680px;
+    margin-bottom: 95px;
+    margin-right: -17px
+}
+.contenu-menu .menu{
+    background-color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.contenu-menu img{
+    margin-left: 45px;
+    height: 27px;
+}
+.contenu-menu .menu-lateral{
+    margin-right: 45px;
+}
+.contenu-menu .icon{
+    margin-left: 8px;
+    color: rgb(51, 50, 50);
+    font-size: 20px;
+}
+.contenu-menu ul li a{
+    color: grey;
+    font-weight: 600;
+    margin-right: 10px;
+    list-style-position: outside;
+}
+
+/* .contenu-menu ul{
+  list-style-type: none;
+} */
+.site-slid {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.site-slid img{
+    height: 680px;
+    max-width: 750px;
+    padding-top: 95px;
+    margin-bottom: 95px;
+    position: relative;
+    float: right;
+}
+.bg-color-slide  h4{
+    font-size: 65px;
+    margin-left: -720px;
+    /* margin-bottom: -78px; */
+    color: #222222;
+
+}
+.bg-color-slide a{
+    color: #222222;
+    position: relative;
+    float: left;
+    padding-bottom: -520px;
+}
+.dropdown-menu{
+    padding-top: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+    border-radius: unset;
+    font-size: 0.75em;
+    color: black;
+}
+.carousel-caption{
+    position: relative;
+    float: left;
+    padding-top: 295px;
+    margin-left: -50px;
+}
+.carousel-caption h5{
+    font-size: 4.5em;
+    color: #222222;
+    margin-left: -110px;
+    
+}
+
+.carousel-caption h6{
+    font-size: 1.5em;
+    color: rgb(44, 42, 42);
+    margin-left: -450px;
+}
+.carousel-caption a{
+    font-size: 16px;
+    color: #222222;
+    border: 1px solid black;
+    margin-left: -80px;
+    padding: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 35px;
+    text-decoration: none;
+}
+.carousel-caption .suite-title{
+    padding-left: 45px;
+}
+.carousel-caption a:hover{
+   background-color: #a749ff;
+   color: white;
+   border: 1px solid #a749ff;
+  
+}
+/* .nav-item:hover{
+    color: #a749ff;
+} */
+.dropdown-item{
+    font-weight: 100;
+}
+.support-1 {
+    margin-left: 250px;
+    /* padding-top: 55px; */
+}
+
+.support-1 .image{
+   display: inline-block;
+   font-size: 10px;
+   margin-right: 2px;
+  text-align: center;
+}
+.support-1 .text-pour-image{
+    display: inline-block;
+    padding-bottom: 25px;
+ }
+ .support-1 .text-pour-image p{
+   color: #666;
+ }
+
+ .support-2 {
+    margin-left: 25px;
+    padding-top: 55px;
+}
+
+.support-2 .image{
+   display: inline-block;
+   font-size: 110px;
+   margin-right: 10px;
+  
+}
+.support-2 .text-pour-image{
+    display: inline-block;
+    padding-bottom: 25px;
+ }
+ .support-2 .text-pour-image p{
+   color: #666;
+ }
+.daily-deal{
+    height:100px;
+}
+.daily-deal h2{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 55px;
+}
+.menu-daily{
+    padding-top: 35px;
+    /* padding-left: 25px; */
+    margin-bottom: 50px;
+}
+.menu-daily a{
+    margin-right: 25px;
+    font-size: 18px;
+    color: #5a5858;
+    text-decoration: none;
+}
+.menu-daily a:hover{
+   color: #222222;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tof-daily-deal{
+    margin-bottom: 50px;
+}
+.tof-daily-deal .new-deal{
+   position: relative;
+   float: right;
+   margin-bottom: -78px;
+   padding-top: 12px;
+   color: white;
+   background-color:#a749ff ;
+   padding: 2px;
+   margin-top: 8px;
+   border-radius: 5px;
+}
+
+.tof-daily-deal .new-deal2{
+    position: relative;
+    float: right;
+    margin-bottom: -78px;
+    padding-top: 12px;
+    margin-top: 6px; 
+    color: white;
+    padding: 4px; 
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: rgba(216, 57, 84, 0.973);
+ }
+ .tof-daily-deal a:hover{
+     background-color: black;
+     height: 45px;
+
+ }
+ .tof-our-blog .new-deal{
+    position: relative;
+    float: left;
+    margin-bottom: -78px;
+    padding-top: 12px;
+    color: white;
+    background-color:#a749ff ;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+ }
+ .tof-our-blog {
+    margin-left: -35px;
+    padding-bottom: 25px;
+ }
+ .footer{
+     height: 340px;
+ }
+ .footer .image-logo{
+    padding-left:95px;
+    margin-top: 158px;
+ }
+ .footer ul{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 35px;
+ }
+ .footer h5{
+    margin-top: 60px;
+    padding-left: 20px;
+    text-transform: uppercase;
+ }
+ .footer ul>li>a{
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+ }
+ .footer a:hover{
+    color:#a749ff;
+ }
+
+
+@media (max-width:768px){
+    .contenu-menu img{
+        margin-left: 10px;
+        height: 20px;
+    }
+    .contenu-menu .menu-lateral{
+        margin-left: 115px;
+        margin-top: -30px;
+    }
+    .contenu-menu .icon{
+        margin-left: 2px;
+        color: rgb(51, 50, 50);
+        font-size: 14px;
+    }
+    .site-slid  img{
+        height: 280px;
+        max-width: 150px;
+        padding-top: 95px;
+        margin-bottom: 95px;
+        position: relative;
+        float: right;
+    }
+    .bg-color-slide{
+        background-color: #f0e0ff;;
+        height: 280px;
+    }
+    .carousel-caption{
+        position: relative;
+        float: left;
+        padding-top: 155px;
+        margin-left: 2px;
+    }
+    .carousel-caption h5{
+        font-size: 14px;
+        color: #222222;
+        margin-left: -5px;
+        
+    }
+    
+    .carousel-caption h6{
+        font-size: 10px;
+        color: rgb(44, 42, 42);
+        margin-left: -28px;
+    }
+    .carousel-caption a{
+        font-size: 12px;
+        color: #222222;
+        border: 1px solid black;
+        margin-left: 6px;
+        padding: 2px;
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-top: 6px;
+        text-decoration: none;
+    }
+    .carousel-caption .suite-title{
+        margin-left: -36px;
+    }
+      .image{
+          padding-top: 90px;
+      }
+      .daily-deal h2{
+          font-size:20px;
+          padding-bottom: 30px;
+      }
+        #hr1{
+            background-color:black;
+            padding: 1px;
+            width: 50px;
+            margin-left: -10px;
+            margin-bottom: -15px;
+        }
+        #hr2{
+            background-color:black;
+            padding: 1px;
+            width: 50px;
+            margin-right: -8px;
+            margin-top: -11px;
+        }
+        
+        .menu-daily{
+            margin-top: -60px;
+            /* padding-left: 25px; */
+        }
+        .menu-daily a{
+            margin-right: 5px;
+            font-size: 14px;
+            color: #5a5858;
+            text-decoration: none;
+        }
+        .menu-daily a:hover{
+           color: #222222;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .footer{
+            height: 1240px;
+            max-width: 420px;
+            position: relative;
+            float: right;
+        }
+        .footer ul{
+            list-style-type: none;
+            margin-left: -20px;
+            line-height: 35px;
+            margin-bottom: -28px;
+         }
+         .footer .image-logo{
+            padding-left:95px;
+            margin-top: -50px;
+         }
+         .tof-our-blog {
+            margin-left: -42px;
+            padding-bottom: 25px;
+         }
+         .tof-our-blog img{
+            /* margin-left: -45px; */
+            padding-bottom: 8px;
+         }
+ }
